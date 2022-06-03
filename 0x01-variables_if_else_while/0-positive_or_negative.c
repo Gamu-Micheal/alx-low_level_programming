@@ -1,11 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there */
 #include <stdio.h>
-
+/* betty style doc for function main goes there */
 /**
- * main - Eentry point
+ * main - use to check for conditions
  *
- * Return: Always 0 (Success)
+ * Description: return the results when conditions are meant
+ *
+ * Return: return integer 0
+ *
  */
 int main(void)
 {
