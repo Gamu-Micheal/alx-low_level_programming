@@ -1,21 +1,21 @@
 #include <stdio.h>
-#include <ctyp.h>
 
 /**
- * main - Entry point
+ * main - Prints all single digit numbers of base 10 starting from 0,
  *
- * Return: Always 0 (Success)
+ * only using putchar and without char variables.
+ *
+ * Return: return integer value  0
+ *
  */
-
 int main(void)
 {
-	char ch;
-	char space = '\n';
-	for (ch = '0' ; ch <= '9' ; ch++)
-	{
-		putchar(tolower(ch));
-	}
-	putchar(space);
+	int num;
+
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+	
+	putchar('\n');
 
 	return (0);
 }
