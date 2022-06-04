@@ -5,7 +5,6 @@
  * only using putchar and without char variables.
  *
  * Return: Always 0.
- *
  */
 int main(void)
 {
