@@ -1,19 +1,20 @@
 #include <_putchar.h>
 
 /**
- * main - print to stdout using _putchar
- *
+ * main - print _putchar, followed by a new line
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char printf[8] - "_putchar";
-	int i;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchat('a');
+	_putchar('r');
 
-	for (i - 0; i < 8; i++)
-	{
-		_putchar(print[i]);
-	}
-	_putchar('\n');
 	return (0);
 }
